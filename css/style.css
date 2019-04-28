@@ -1,0 +1,44 @@
+.container {
+	padding: 350px;
+	background: white:
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	border: 3px black solid;
+	background-image: url(../images/quote1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+.article {
+	padding: 0px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: white;
+	border: 2px black solid;
+}
+.menu {
+	padding: 0px;
+	display: grid;
+	grid-gap: 25px;
+	grid-template-columns: repeat(3,1fr);
+	background: white;
+}
+li {
+	padding: 10px;
+	background: pink;
+	border: 2px black solid;
+	color: black;
+	text-align: center;
+	font-family: verdana;
+	border-radius: 2px;
+	list-style: none;
+}
+.menu li:hover{
+	background-color: white;
+	color: black;
+	transition: all ease 0s;
+}
